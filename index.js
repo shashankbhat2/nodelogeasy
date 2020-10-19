@@ -1,36 +1,45 @@
 const chalk = require('chalk');
 
 // console.log
-export const log = (...x) => {
+const log = (...x) => {
     console.log(chalk.blue(...x))
 }
 
 // console.clear
-export const clean = () => {
+const clean = () => {
     console.clear();
     console.log(chalk.gray("console cleared"));
 }
 
 // console.error
-export const errorlog = (...x) => {
+const errorlog = (...x) => {
     console.error(chalk.red(...x));
 }
 
 //console.warn
-export const warnlog = (...x) => {
+ const warnlog = (...x) => {
     console.warn(chalk.yellow(...x));
 }
 
 //console.info 
-export const infolog = (...x) => {
+ const infolog = (...x) => {
     console.info(chalk.magenta(...x));
 }
 
 //console.trace
-export const tracelog = () => {
+const tracelog = () => {
     console.trace()
 }
 
+
+module.exports = {
+    log,
+    clean,
+    errorlog,
+    warnlog,
+    infolog,
+    tracelog,
+}
 
 /* test 
 // log("hello")

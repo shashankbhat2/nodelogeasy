@@ -1,6 +1,6 @@
 {
   "name": "nodelogeasy",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Most used console methods with easy names ",
   "main": "index.js",
   "dependencies": {
