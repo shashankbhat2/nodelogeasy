@@ -1,0 +1,15 @@
+{
+  "name": "nodelogeasy",
+  "version": "1.1.0",
+  "description": "Most used console methods with easy names ",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shashank Bhat",
+  "license": "ISC"
+}
